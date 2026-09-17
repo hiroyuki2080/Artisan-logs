@@ -35,7 +35,66 @@ Same drop CO ≠ same color. That gap is the point of this repo.
 - Also logged: ET, BT, heater, fan, room temp / humidity when noted
 
 CO is a concentration. Probe placement, airflow, chaff, and leaks
-change the number. Compare logs before comparing ppm values.
+
+/logs
+  cerrado_350ppm.alog
+  cerrado_120ppm.alog
+  cerrado_40ppm.alog
+  nansebo_350ppm.alog
+  nansebo_120ppm.alog
+  nansebo_40ppm.alog
+  mandheling_350ppm.alog
+  mandheling_120ppm.alog
+  mandheling_40ppm.alog
+  caramelado_350ppm.alog
+  caramelado_120ppm.alog
+
+
+Open in Artisan. Do not treat the filenames as a color scale.
+
+## Color after the roast
+
+Ground samples, flattened with the back of a spoon.
+
+| Coffee | Drop CO | Agtron card (visual) | L* |
+|---|---:|---:|---:|
+| Cerrado Tree-Dried | 350 | 35 | 15.76 |
+| Cerrado Tree-Dried | 120 | 45 | 16.56 |
+| Cerrado Tree-Dried | 40 | 60 | 20.31 |
+| Sidamo Nansebo Natural | 350 | 40 | 14.84 |
+| Sidamo Nansebo Natural | 120 | 50 | 16.16 |
+| Sidamo Nansebo Natural | 40 | 65 | 19.91 |
+| Mandheling Aceh Trenggiling | 350 | 35 | 15.36 |
+| Mandheling Aceh Trenggiling | 120 | 45 | 16.94 |
+| Mandheling Aceh Trenggiling | 40 | 50 | 17.64 |
+| Caramelado Decaf | 350 | 40 | 14.57 |
+| Caramelado Decaf | 120 | 50 | 16.05 |
+
+Agtron card and L* are not a conversion table.
+At 40 ppm, Mandheling is still card 50 / L* 17.64 while Nansebo is
+card 65 / L* 19.91.
+
+## Questions worth arguing
+
+1. Is "roast degree" chemistry, color, or the cup?
+2. Is a shared CO target useful if color still needs an origin offset?
+3. How much of the CO signal is bean chemistry vs chaff on the heater
+   vs exhaust dilution?
+4. If you already drop on BT + development time, what does CO add?
+5. Should Agtron / L* stay post-roast QA only?
+
+Disagree in Issues. Pull requests with other machines / probe
+positions are more useful than theory-only comments.
+
+## Safety
+
+Roasted coffee can hold and later release CO.
+Vent the roaster. This repo is about roast control, not exposure limits.
+
+## References
+
+- JP6173395B2 / US10278406B2 / WO2017033676A1
+- Video example (Nansebo): https://x.com/Hiroyuki2080/status/2100643843297448175
 
 ## Logs
 
