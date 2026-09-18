@@ -1,4 +1,4 @@
-# Hiroyuki
+# Readme
 Artisan `.alog` files from a Quest M3s modified to log exhaust CO and drop when CO hits a set limit.
 This is a data dump plus an open question, not a finished method paper.
 
